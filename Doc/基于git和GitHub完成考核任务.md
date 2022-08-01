@@ -40,9 +40,19 @@
 
 ![image](./image/githubdesktop_1.png)
 
-选择对应的仓库与保存地址，点击clone。至此你的远程仓库就克隆到本地了
+选择对应的仓库与保存地址，点击`clone`。至此你的远程仓库就克隆到本地了
 
 接下来你只需要将你完成的内容在对应的文件夹下保存
+
+##### 更新仓库
+
+当你在后续时间中打开项目时，请留意是否有`Pull origin`按钮
+
+如图
+
+![image](./image/githubdesktop_2.jpg)
+
+点击它更新远程仓库的内容
 
 ##### 提交考核
 
@@ -56,4 +66,32 @@
 
 对于梗概的规定在考试规范中规定
 
-完成后点击Commit to main
+完成后点击`Commit to main`
+
+然后点击主页面上的`Push origin`的按钮，便成功将更新推到了个人的远程仓库之中。
+
+##### 提交pr请求合并到主仓库
+
+当你完成对于所有内容的修改之后来到github上自己fork的仓库
+
+入股过你有修改可以看见如图
+
+![image](./image/githubdesktop_3.png)
+
+点击`pull requests` 在页面中点击`New pull request`
+
+在base repository-base中选择自己对应的分支（请注意不要合并到主仓库的main，否则不会予以合并）
+
+然后点击`Create pull request`
+
+在接下来的页面中取消勾选`Allow edits by maintainers`同时在Title与下方添加必要的说明后点击`Create pull request`
+
+下一个页面中在右侧有五个标签栏：
+
+1. Reviewers: 这里可以 @考核负责人让他们来批改你的工作，请在这里点选所有考核负责人。
+2. Assignees: 这里填申请人，也就是你自己。
+3. Labels: 对 Issue 和 Pull request 进行分类，每个标签都有对应说明，请按实际情况选择，如果是提交成果，选择 `submit`，如果你是第一次使用这个功能，选择 `First Issue!`，各位会欢迎你的到来。
+4. Projects: 忽略
+5. Milestone: 忽略。
+
+而后只需小小等待以下冲突检测通过后，便可以联系学长姐将你的提交合并到主仓库中
