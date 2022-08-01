@@ -1,6 +1,6 @@
 # SYSU AERO-SWIFT 2022 秋季考核
 
-![Swift Team Logo](https://github.com/SYSU-AERO-SWIFT/Tutorial_2022/blob/main/logo.jpg)
+![Swift Team Logo](./logo.jpg)
 
 **欢迎来到中大空中机器人队 2022秋季考核任务。下面是一些关于考核和工程的相关说明。**
 
@@ -8,27 +8,27 @@
 
 #### 环境配置与准备
 
-补充doc
+[环境配置与准备](./Doc/环境配置与准备.md)这部分会介绍如何配置基本的考核环境
 
 #### 基于git和GitHub完成考核任务
 
-补充doc
+[基于git和GitHub完成考核任务](./Doc/基于git和GitHub完成考核任务.md)该部分会介绍如何获取考核仓库及完成提交
 
 #### 团队协同的规范
 
-补充doc
+[团队协同的规范](./Doc/团队协同的规范.md)该部分会规定代码与文件规范
 
 #### 视觉：基于Opencv完成考核
 
-补充doc
+[视觉：基于Opencv完成考核](./Doc/视觉：基于Opencv完成考核.md)该部分将介绍如何完成视觉相关部分的考核
 
-#### 飞控: 基于ros完成考核
+#### 飞控: 基于Ros完成考核
 
-补充doc
+[飞控: 基于Ros完成考核](./Doc/飞控: 基于Ros完成考核.md)该部分将介绍如何完成飞行控制相关部分的考核
 
 #### 机械： 基于Solidworks完成考核
 
-补充doc
+[机械： 基于Solidworks完成考核](./Doc/机械： 基于Solidworks完成考核.md)该部分将介绍如何完成机械设计相关部分的考核
 
 ## 版本说明
 
