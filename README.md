@@ -1,6 +1,6 @@
 # SYSU AERO-SWIFT 2022 秋季考核
 
-![Swift Team Logo](/logo.jpg)
+![Swift Team Logo](https://github.com/SYSU-AERO-SWIFT/Tutorial_2022/blob/main/logo.jpg)
 
 **欢迎来到中大空中机器人队 2022秋季考核任务。下面是一些关于考核和工程的相关说明。**
 
