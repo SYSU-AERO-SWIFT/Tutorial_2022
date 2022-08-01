@@ -1,0 +1,6 @@
+*.[oa]
+*.exe
+*.out
+build/
+bin/
+devel/
