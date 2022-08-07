@@ -76,7 +76,7 @@ Author：@PiCaHor
 
 当你完成对于所有内容的修改之后来到github上自己fork的仓库
 
-如果过你有修改可以看见如图
+如果你有修改可以看见如图
 
 ![image](./image/githubdesktop_3.png)
 
