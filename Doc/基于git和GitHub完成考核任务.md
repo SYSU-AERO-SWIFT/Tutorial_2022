@@ -5,6 +5,7 @@ Author：@PiCaHor
 | 版本 | 说明 |备注|
 | ---- | ---- | ---- |
 | v0.0.0 | 建立文档 |无|
+| v0.0.1 | 添加GITHUB基本概念的解释 |@LinHuangnan|
 
 ## 前言
 
@@ -20,7 +21,22 @@ Author：@PiCaHor
 
 [基于java的git学习网站](https://learngitbranching.js.org/?locale=zh_CN)
 
-*注：由于github容易出现域名污染，所以可能会出现登不上以及图片加载不成功的情况这里有条件的同学可以科学上网，如果不行请在提交时多试几次，针对图片问题可以将仓库clone到本地后进行查看。 
+`*注`由于github容易出现域名污染，所以可能会出现登不上以及图片加载不成功的情况这里有条件的同学可以科学上网，如果不行请在提交时多试几次，针对图片问题可以将仓库clone到本地后进行查看。 
+
+## GITHUB基本概念的说明
+
+![image](./image/GITHUB_Concept1.jpg)
+
+##### 首先区分上图的3个Tutorial_2022,虽然这三个仓库的名称，内容都相同，但其实是不同的仓库
+
+假设LHN是某位参加考核的人员，为了完成考核，他需要先克隆(执行`fork`操作）SYSU-AERO-SWIFT的Tutorial_2022仓库，此时他的仓库列表里就会出现一个Tutorial_2022仓库，这两个仓库的内容相同，LHN的Tutorial_2022仓库其实是SYSU-AERO-SWIFT的Tutorial_2022仓库的一个副本。
+
+但是由于这两个仓库都属于远程仓库，即代码和文件是存在远程的服务器上，因此为了完成考核任务，LHN需要把远程的Tutorial_2022仓库克隆（执行`clone`操作）到本地，形成本地的Tutorial_2022仓库，然后根据考核仓库的要求，在本地修改代码，添加文件，然后提交（执行`commit`操作）到本地的Tutorial_2022仓库，但是对本地的Tutorial_2022仓库进行修改并不会改变远程的仓库，因此LHN需要先进行`push`操作，将本地仓库的修改同步到LHN的Tutorial_2022,然后再进行`pull request`操作，将修改同步到SYSU-AERO-SWIFT的Tutorial_2022仓库，至此才算成功提交了任务成果。
+
+##### 对一些概念的理解
+
+- `fork` 英语翻译过来就是叉子，动词形式则是分叉,在GITHUB中，fork则可以代表分叉、克隆出一个（仓库的）新拷贝，该拷贝包含了原来的仓库（即upstream repository，上游仓库）所有内容，如分支、Tag、提交，如果想将你的修改合并到原仓库中时，可以通过的`Pull Request`把你的提交贡献回原仓库
+- `clone`
 
 ### Windows
 
