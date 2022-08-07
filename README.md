@@ -38,7 +38,7 @@
 
 [基于STM32完成考核](./Doc/基于STM32完成考核.md)该部分将介绍嵌入式开发的相关知识
 
-#### Matlab相关学习
+#### 基于Matlab完成考核
 
 [Matlab相关学习](./Doc/Matlab相关学习.md)该部分将介绍如何使用MATLAB进行仿真
 
