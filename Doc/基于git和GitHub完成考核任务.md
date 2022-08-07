@@ -46,7 +46,9 @@ Author：@PiCaHor
 - `commit` 将自己在本地创建或者修改的代码，文件commit（提交）到本地仓库
 - `pull`  将远程仓库的数据同步到本地仓库，为了和远程仓库相匹配。举个例子，LHN一周之前从远程`clone`了一个仓库到本地，但是在这一周时间内该仓库可能被PCH进行了修改，导致远程仓库和本地仓库的内容不同，因此就需要进行一次`pull`操作将数据同步
 - `push` 将本地仓库的修改提交到远程仓库
-- `pull request` 简称`pr`,在 GitHub 上发送 Pull Request 后，发送过去的 Pull Request 是否被采纳，要由接收方仓库的管理者进行判断。在上图的例子中，LHN需要发起一个Pr,然后空队的管理人员将会接受LHN发起的pr，从而实现LHN的Tutorial_2022仓库和SYSU-AERO-SWIFT的Tutorial_2022仓库内容的同步
+- `pull request` 简称`pr`,在 GitHub 上发送 Pull Request 后，发送过去的 Pull Request 是否被采纳，要由接收方仓库的管理者进行判断。在上图的例子中，LHN需要发起一个Pr,然后空队的管理人员将会接受LHN发起的pr，接受pr的过程称为`merge`,从而实现LHN的Tutorial_2022仓库和SYSU-AERO-SWIFT的Tutorial_2022仓库内容的同步
+- `branch` GitHub仓库默认有一个main的分支，当我们在main分支开发过程中接到一个新的功能需求，我们就可以新建一个分支同步开发而互不影响，开发完成后，在合并merge到主分支main上。
+**注** 在考核过程中，我们会给每一位参加考核的同学建立一个以该同学名字命名的分支，每一个同学只能在自己的名字对应的分支下面完成考核，不得直接在main分支下完成考核，因为只有这样我们才能区分参加考核的同学，并予以评分
 
 ### Windows
 
