@@ -1,5 +1,7 @@
 # 基于git和GitHub完成考核任务
 
+Author：@PiCaHor
+
 | 版本 | 说明 |备注|
 | ---- | ---- | ---- |
 | v0.0.0 | 建立文档 |无|
@@ -74,7 +76,7 @@
 
 当你完成对于所有内容的修改之后来到github上自己fork的仓库
 
-入股过你有修改可以看见如图
+如果过你有修改可以看见如图
 
 ![image](./image/githubdesktop_3.png)
 
@@ -95,3 +97,10 @@
 5. Milestone: 忽略。
 
 而后只需小小等待以下冲突检测通过后，便可以联系学长姐将你的提交合并到主仓库中
+
+## Linux-UBUNTU
+
+##### 前置准备
+
+- Ubuntu 或者其他的Linux/Unix系统
+- github账号
