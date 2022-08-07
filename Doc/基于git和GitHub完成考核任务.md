@@ -25,7 +25,7 @@ Author：@PiCaHor
 
 [基于java的git学习网站](https://learngitbranching.js.org/?locale=zh_CN)
 
-[B站上比较好的git教程]([https://learngitbranching.js.org/?locale=zh_CN](https://www.bilibili.com/video/BV1pW411A7a5?spm_id_from=333.337.search-card.all.click&vd_source=d6011caa82e4385e45ccd7c9fee9d5fe))
+[B站上比较好的git教程](https://www.bilibili.com/video/BV1pW411A7a5?share_source=copy_web&vd_source=34ed110d766ac5910b35ccc9afedda6e)
 
 **注** 由于github容易出现域名污染，所以可能会出现登不上以及图片加载不成功的情况这里有条件的同学可以科学上网，如果不行请在提交时多试几次，针对图片问题可以将仓库clone到本地后进行查看。 
 
