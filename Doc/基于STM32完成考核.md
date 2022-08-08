@@ -47,9 +47,25 @@ STM32有三种常见的开发方式
 
 **学习STM32还是应该注重实践，可以跟着立创开源广场，B站上面的教程，自己复现一些开源项目，完成一两个项目之后，差不多就能够比较好的掌握STM32的常用外设**
 
+### STM32的
 ## 软件/工具 介绍
+### STM32开发环境--Keil的介绍和安装
+#### 什么是Keil
+Keil是单片机的一款开发环境，分为不同的版本分别对应不同阶段的单片机，主流的就是51单片机和STM32单片机。
 
-## 软件安装/环境配置
+这里需要注意的是，一般来说51单片机和STM32单片机的Keil版本不能共用，也就是一个keil不能同时编译51和STM32单片机的程序。
+
+#### Keil的安装
+详细操作参考[这篇文章](https://blog.csdn.net/Matcha_ice_cream/article/details/118684582?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165993837416782425120440%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165993837416782425120440&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-118684582-null-null.142^v39^pc_rank_v38,185^v2^control&utm_term=KEIL&spm=1018.2226.3001.4187)，可以说是属于保姆级教程了
+
+### STM32图形化配置工具--CUBEMX的介绍和安装
+#### 什么是CUBEMX
+STM32CubeMX 是 ST 意法半导体近几年来大力推荐的STM32 芯片图形化配置工具，目的就是为了方便开发者， 允许用户使用图形化向导生成C 初始化代码，可以大大减轻开发工作，时间和费用，提高开发效率。STM32CubeMX几乎覆盖了STM32 全系列芯片。 在CubeMX上，通过傻瓜化的操作便能实现相关配置，最终能够生成C语言代码，支持多种工具链，比如MDK、IAR For ARM、TrueStudio等  省去了我们配置各种外设的时间，大大的节省了时间。
+
+**如果采用HAL库开发一般会用到这个工具，如果仅仅只是学标准库开发的话，可以不用下载这个软件**
+
+#### CUBEMX的安装
+详细操作参考[这篇文章](https://strongerhuang.blog.csdn.net/article/details/52225736?spm=1001.2101.3001.6650.5&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-5-52225736-blog-98885316.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-5-52225736-blog-98885316.pc_relevant_aa&utm_relevant_index=10),也是保姆级教程
 
 ## 需要掌握的内容
 
