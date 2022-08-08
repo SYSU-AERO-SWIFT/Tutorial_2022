@@ -100,3 +100,8 @@ STM32CubeMX 是 ST 意法半导体近几年来大力推荐的STM32 芯片图形�
 STM32 标准库教程推荐[B站上的这个教程](https://www.bilibili.com/video/BV1th411z7sn?share_source=copy_web&vd_source=34ed110d766ac5910b35ccc9afedda6e)
 
 STM32 HAL库教程推荐[CSDN上的Z小旋的博客](https://blog.csdn.net/as480133937/category_9188655.html)
+
+## 补充
+**最后补充一点，学习STM32一定要学会移植示例程序，这样子可以节省很多时间**
+
+**示例程序CSDN上面很多，输入自己需要使用的外设名称进行搜索，就能找到很多不错的例程**
