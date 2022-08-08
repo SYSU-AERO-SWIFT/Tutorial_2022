@@ -43,13 +43,12 @@ Revise：
 STM32有三种常见的开发方式
 - `直接配置寄存器` 你可能学过51单片机，直接操作寄存器是51单片机很常见的一种开发方式，但是这种方法到了STM32就变得不太容易行得通了，因为STM32的寄存器数量是51单片机的十数倍，如此多的寄存器根本无法全部记忆，开发时需要经常的翻查芯片的数据手册，此时直接操作寄存器就变得非常的费力了。但还是会有很小一部分人，喜欢去直接操作寄存器，因为这样更接近原理，知其然也知其所以然
 - `标准库` ST公司为每款芯片都编写了一份库文件，也就是工程文件里stm32F1xx…之类的。在这些 .c .h文件中，包括一些常用量的宏定义，把一些外设也通过结构体变量封装起来，如GPIO口时钟等。所以我们只需要配置结构体变量成员就可以修改外设的配置寄存器，从而选择不同的功能。也是目前最多人使用的方式，也是学习STM32接触最多的一种开发方式
-- HAL库开发 HAL库是ST公司目前主力推的开发方式，全称就是Hardware Abstraction Layer（抽象印象层）。它的出现比标准库要晚，但其实和标准库一样，都是为了节省程序开发的时间，而且HAL库尤其的有效，如果说标准库把实现功能需要配置的寄存器集成了，那么HAL库的一些函数甚至可以做到某些特定功能的集成。也就是说，同样的功能，标准库可能要用几句话，HAL库只需用一句话就够了。并且HAL库也很好的解决了程序移植的问题，不同型号的stm32芯片它的标准库是不一样的，例如在F4上开发的程序移植到F3上是不能通用的，而使用HAL库，只要使用的是相通的外设，程序基本可以完全复制粘贴。而且使用HAL库开发可以配合使用ST公司研发的CubeMX软件，可以通过图形化的界面配置功能，直接生成整个使用HAL库的工程文件。
+- `HAL库开发` HAL库是ST公司目前主力推的开发方式，全称就是Hardware Abstraction Layer（抽象印象层）。它的出现比标准库要晚，但其实和标准库一样，都是为了节省程序开发的时间，而且HAL库尤其的有效，如果说标准库把实现功能需要配置的寄存器集成了，那么HAL库的一些函数甚至可以做到某些特定功能的集成。也就是说，同样的功能，标准库可能要用几句话，HAL库只需用一句话就够了。并且HAL库也很好的解决了程序移植的问题，不同型号的stm32芯片它的标准库是不一样的，例如在F4上开发的程序移植到F3上是不能通用的，而使用HAL库，只要使用的是相通的外设，程序基本可以完全复制粘贴。而且使用HAL库开发可以配合使用ST公司研发的CubeMX软件，可以通过图形化的界面配置功能，直接生成整个使用HAL库的工程文件。
 
 **这里建议入门时先学习标准库，~~因为标准库对于新手相对友好~~，而且CSDN上有很多的示例程序，大部分示例程序都很好移植**
 
 **学习STM32还是应该注重实践，可以跟着立创开源广场，B站上面的教程，自己复现一些开源项目，完成一两个项目之后，差不多就能够比较好的掌握STM32的常用外设**
 
-### STM32的
 ## 软件/工具 介绍
 ### STM32开发环境--Keil的介绍和安装
 #### 什么是Keil
@@ -92,6 +91,10 @@ STM32CubeMX 是 ST 意法半导体近几年来大力推荐的STM32 芯片图形�
 - `USB` STM32还提供了USB库，有兴趣也可以学习一下
 
 ## STM32F103C8T6介绍
+参考[这篇文章](https://blog.csdn.net/fantastic_sky/article/details/110229474?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165993851716781647534722%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165993851716781647534722&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-110229474-null-null.142^v39^pc_rank_v38,185^v2^control&utm_term=stm32f103c8t6&spm=1018.2226.3001.4187)
+
+## STM32程序的烧录
+比较常用，而且相对比较简单的是使用STLink进行程序的烧录，参考[这篇文章](https://blog.csdn.net/weixin_43732386/article/details/117375266?spm=1001.2101.3001.6650.5&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-5-117375266-blog-79316039.pc_relevant_multi_platform_whitelistv3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-5-117375266-blog-79316039.pc_relevant_multi_platform_whitelistv3&utm_relevant_index=8)
 
 ## 推荐教程/参考资料
 STM32 标准库教程推荐[B站上的这个教程](https://www.bilibili.com/video/BV1th411z7sn?share_source=copy_web&vd_source=34ed110d766ac5910b35ccc9afedda6e)
