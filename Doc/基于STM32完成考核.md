@@ -99,4 +99,4 @@ STM32CubeMX 是 ST 意法半导体近几年来大力推荐的STM32 芯片图形�
 ## 推荐教程/参考资料
 STM32 标准库教程推荐[B站上的这个教程](https://www.bilibili.com/video/BV1th411z7sn?share_source=copy_web&vd_source=34ed110d766ac5910b35ccc9afedda6e)
 
-STM32 HAL库教程推荐[CSDN上的Z小旋的博客](https://learngitbranching.js.org/?locale=zh_CN)
+STM32 HAL库教程推荐[CSDN上的Z小旋的博客](https://blog.csdn.net/as480133937/category_9188655.html)
