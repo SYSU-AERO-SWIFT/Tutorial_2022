@@ -1,6 +1,7 @@
 # 基于STM32完成考核任务
 
 Author：@LinHuangnan
+
 Revise：
 
 | 版本 | 说明 |备注|
@@ -10,7 +11,24 @@ Revise：
 
 ## 前言
 
+首先介绍与嵌入式相关的一些概念
 
+`嵌入式` 嵌入式即嵌入式系统，是用于控制、监视或者辅助操作机器和设备的装置，是一种专用的计算机系统，或者说是将微型计算机嵌入到电子产品内部，生活中看到的很多设备其实都是嵌入式系统，包括：空调、冰箱、洗衣机等家电，智能手机和智能手表和其他可穿戴智能硬件，摄像头、智能门锁等等
+
+`单片机` 单片机也广泛称为`微控制器`（`MCU`），具有数据处理能力的中央处理器CPU、随机存储器RAM、只读存储器ROM、多种I/O口和中断系统、定时器/计数器等功能（可能还包括显示驱动电路、脉宽调制电路、模拟多路转换器、A/D转换器等电路）集成到一块硅片上构成的一个小而完善的微型计算机系统，简单来说就是独有一个芯片（本质上是芯片内独有一个半导体chip）的计算机系统，或者说是单个片（chip）上的计算机系统。粗略的划分单片机也属于嵌入式系统，因为很多嵌入式产品中被嵌入的计算机系统就是单片机
+
+
+
+
+
+### 什么是STM32
+#### STM32是什么
+- ST 意法半导体，即SOC厂商
+- M  Microelectronics的缩写，即微控制器
+- 32 32bit，表示是一个32bit微控制器（单片机位数指CPU处理的数据的宽度,参与运算的寄存器的数据长度。32位单片机的数据总线宽度为32位，通常可直接处理8位或16位或32位数据。）
+
+
+#### 为什么选择STM32
 
 ## 软件/工具 介绍
 
@@ -19,8 +37,6 @@ Revise：
 ## 需要掌握的内容
 
 ## 推荐教程/参考资料
-[git官方文档](https://git-scm.com/book/zh/v2)
+STM32 标准库教程推荐[B站上的这个教程](https://www.bilibili.com/video/BV1th411z7sn?share_source=copy_web&vd_source=34ed110d766ac5910b35ccc9afedda6e)
 
-[基于java的git学习网站](https://learngitbranching.js.org/?locale=zh_CN)
-
-[B站上比较好的git教程](https://www.bilibili.com/video/BV1pW411A7a5?share_source=copy_web&vd_source=34ed110d766ac5910b35ccc9afedda6e)
+STM32 HAL库教程推荐[CSDN上的Z小旋的博客](https://learngitbranching.js.org/?locale=zh_CN)
