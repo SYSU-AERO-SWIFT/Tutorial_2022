@@ -135,3 +135,69 @@ Revise：@LinHuangnan
 
 - Ubuntu 或者其他的Linux/Unix系统
 - github账号
+
+##### 配置git包
+
+打开终端输入以下命令
+
+```shell
+sudo apt install git
+```
+
+等待片刻后，git便安装完毕
+
+然后输入
+
+```shell
+git config --global user.name 自己的用户名
+git config --global user.email 邮箱
+```
+
+下面我们将生成ssh密钥
+
+```shell
+ssh-keygen -t rsa -C "(你的邮箱)"
+```
+
+接下来输入以下命令
+
+```shell
+cat  ~/.ssh/id_rsa.pub
+```
+
+可以看到终端显示了一串字符串，便是ssh密钥，下面我们将在github中进行关联
+
+打开github
+
+在头像位置处选择setting-ssh and GPG keys
+
+然后new ssh key 
+
+填写其中的title并把ssh密钥填入key中
+
+然后add即可
+
+回到终端，输入
+
+```shell
+ssh -T git@github.com
+```
+
+依据提示输入yes后出现提示说你的github账户链接成功即可
+
+##### 获取仓库
+
+下面我们将通过ssh获取仓库，首先同Windows一样你需要fork自己的仓库
+
+然后在fork的仓库下面轻触code，并选择ssh，复制地址
+
+然后回到终端输入以下命令
+
+```
+git clone 复制的内容
+```
+
+接下来等待clone完毕便完成了仓库的获取
+
+##### 仓库的更新
+
