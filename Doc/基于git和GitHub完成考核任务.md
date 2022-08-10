@@ -135,3 +135,129 @@ Revise：@LinHuangnan
 
 - Ubuntu 或者其他的Linux/Unix系统
 - github账号
+
+##### 配置git包
+
+打开终端输入以下命令
+
+```shell
+sudo apt install git
+```
+
+等待片刻后，git便安装完毕
+
+然后输入
+
+```shell
+git config --global user.name 自己的用户名
+git config --global user.email 邮箱
+```
+
+下面我们将生成ssh密钥
+
+```shell
+ssh-keygen -t rsa -C "(你的邮箱)"
+```
+
+接下来输入以下命令
+
+```shell
+cat  ~/.ssh/id_rsa.pub
+```
+
+可以看到终端显示了一串字符串，便是ssh密钥，下面我们将在github中进行关联
+
+打开github
+
+在头像位置处选择setting-ssh and GPG keys
+
+然后new ssh key 
+
+填写其中的title并把ssh密钥填入key中
+
+然后add即可
+
+回到终端，输入
+
+```shell
+ssh -T git@github.com
+```
+
+依据提示输入yes后出现提示说你的github账户链接成功即可
+
+##### 获取仓库
+
+下面我们将通过ssh获取仓库，首先同Windows一样你需要fork自己的仓库
+
+然后在fork的仓库下面轻触code，并选择ssh，复制地址
+
+然后回到终端输入以下命令
+
+```
+git clone 复制的内容
+```
+
+接下来等待clone完毕便完成了仓库的获取
+
+##### 仓库的更新
+
+！请注意仓库的更新非常重要，请每次开始工作之前都进行一次同步，避免出现某些冲突。不过通常情况下由于你们的工作内容同考核仓库会对应隔离，不会出现冲突。
+
+首先来到自己fork下的工作仓库，如果仓库落后了考核库仓库可以看到xxx commit behind的字样，此时选中右边的Sync fork进行同步即可
+
+下面我们将同步我们本地的仓库
+
+来到终端
+
+```shell
+cd Tutorial_2022
+```
+
+进入本地仓库
+
+输入
+
+```shell
+git pull
+```
+
+便可以进行同步
+
+##### 提交
+
+当你完成一天的工作之后，便可以将所有的工作内容上传至本地仓库中
+
+```shell
+git add .
+```
+
+后面的点号为全部add 你也可以选择部分文件夹进行上传
+
+你可以通过
+
+```shell
+git status
+```
+
+查看你已经add的内容
+
+下面我们为提交打上commit
+
+```shell
+git commit -am "注释内容"
+···
+git tag -a v1.0.0 -m "tag内容"
+
+```
+
+然后进行push
+
+输入
+
+```shell
+git push
+```
+
+查看工作仓库可以发现已经同步
+
+下面的操作同Windows部分相同，便不再赘述。
