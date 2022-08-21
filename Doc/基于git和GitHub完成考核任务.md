@@ -81,6 +81,8 @@ Revise：@LinHuangnan
 
 ### Windows下如何提交考核成果
 
+### 我们给大家录制了[Windows下操作视频教程](https://www.bilibili.com/video/BV15V4y1s7Q6?spm_id_from=333.999.0.0&vd_source=d6011caa82e4385e45ccd7c9fee9d5fe)，大家有时间的话也可以看看
+
 ##### 前置准备
 
 - Windows系统
