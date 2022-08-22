@@ -6,6 +6,7 @@ Author：@ma-h-m
 | ---- | ---- | ---- |
 | v0.0.0 | 建立文档 |无|
 | v0.0.1 | 上传初版教程 |@ma-h-m|
+| v0.0.2 | 补充ros安装教程 |@stuynq|
 
 ## 前言
 
@@ -18,9 +19,16 @@ ROS是飞控组主要工作平台。[大疆OSDK](https://developer.dji.com/cn/on
 ## 软件安装/环境配置
 * 请大家安装 ROS 完成考核，这里 ROS 指的是经典版即 ROS 1，而非正在活跃发展中的 [ROS 2](https://index.ros.org/doc/ros2/)。
 ### Ubuntu
-跟随官方教程即可
+跟随官方教程
 
 Unbuntu 20.04请参考[Ubuntu install of ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu), Untunbu 18.04请参考[Ubuntu install of ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu)
+
+跟随以下教程，有安装过程中出现的错误的解决指南
+[ros安装教程](https://blog.csdn.net/KIK9973/article/details/118755045)
+
+附：
+> 如果rosdep init失败：参考[rosdeo init失败解决方案中的方法0x03](https://www.guyuehome.com/12640)
+> 如果rosdep update失败：建议直接用[rosdep update失败解决方法三：在本地完成更新](https://blog.csdn.net/KIK9973/article/details/118755045)解决
 
 ### Manjaro (Arch Linux)
 ROS 并不包含在 Arch 的官方软件源中，Melodic 在 AUR 中提供实验性支持，参考[官方 Arch 教程](http://wiki.ros.org/melodic/Installation/ArchLinux)。
@@ -42,3 +50,5 @@ AUR helper 建议使用 [yay](https://github.com/Jguer/yay)，安装 [ros-melodi
 [MOOC-ROS教程](https://www.icourse163.org/course/ISCAS-1002580008)
 
 [bilibili 网课资源](https://www.bilibili.com/video/BV1zt411G7Vn?from=search&seid=4645403767351408067&spm_id_from=333.337.0.0)
+
+[电子书《ros机器人编程 原理与应用》](https://pan.baidu.com/s/1X4fVj_vxo_fVP7Td14Ap7A) 提取：lpyj
