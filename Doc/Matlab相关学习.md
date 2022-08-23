@@ -12,9 +12,9 @@ Author：@jy531
 
 
 ## 软件介绍
-&nbsp;&nbsp;MATLAB是matrix&laboratory两个词的组合，意为矩阵工厂（矩阵实验室）,它在数值计算方面的运用非常广泛。
+MATLAB是matrix&laboratory两个词的组合，意为矩阵工厂（矩阵实验室）,它在数值计算方面的运用非常广泛。
 
-&nbsp;&nbsp;请有志于加入飞控组的同学，用心学习教程，在后续的考核任务中，使用Matlab的Simulink完成飞行器(四旋翼）的仿真也是非常重要的一部分。
+请有志于加入飞控组的同学，用心学习教程，在后续的考核任务中，使用Matlab的Simulink完成飞行器(四旋翼）的仿真也是非常重要的一部分。
 
 ## 环境配置
 中山大学向迈斯沃克 (MathWorks) 软件（北京）有限公司采购了 MATLAB 校园版软件许可服务，在校师生可在个人电脑和校属电脑上安装 MATLAB 系列产品，并享有 MathWorks 服务支持、在线资源和课程开发等服务。软件支持在 Windows、macOS、Linux 操作系统上安装。
