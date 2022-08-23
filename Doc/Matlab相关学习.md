@@ -20,12 +20,12 @@ Author：@jy531
 中山大学向迈斯沃克 (MathWorks) 软件（北京）有限公司采购了 MATLAB 校园版软件许可服务，在校师生可在个人电脑和校属电脑上安装 MATLAB 系列产品，并享有 MathWorks 服务支持、在线资源和课程开发等服务。软件支持在 Windows、macOS、Linux 操作系统上安装。
 
 [校内相关网站](https://software.sysu.edu.cn/matlabhome)
-[资源下载](https://software.sysu.edu.cn/matlab_dl)
-[激活码获取](https://software.sysu.edu.cn/matlab_registration)
+&nbsp;&nbsp;[资源下载](https://software.sysu.edu.cn/matlab_dl)
+&nbsp;&nbsp;[激活码获取](https://software.sysu.edu.cn/matlab_registration)
 
 下载后将R2022a_Update_1_Windows.iso文件进行解压，可以根据解压后的mathworks_installation_help_zh_CN.pdf的文件指引（使用Internet连接安装产品）来进行安装
-使用上述连接获得的激活码激活软件后，可以参考下面链接的步骤10-15即可成功安装（至少安装Matlab、Simulink和Aerospace相关模块）
-[软件安装](https://blog.csdn.net/weixin_54557847/article/details/123619193)
+&nbsp;&nbsp;使用上述连接获得的激活码激活软件后，可以参考下面链接的步骤10-15即可成功安装（至少安装Matlab、Simulink和Aerospace相关模块）
+&nbsp;&nbsp;[软件安装](https://blog.csdn.net/weixin_54557847/article/details/123619193)
 
 ## 需要掌握的内容
 * Matlab的基本语法
