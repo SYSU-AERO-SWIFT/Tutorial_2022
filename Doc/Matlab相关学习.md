@@ -40,4 +40,4 @@ Author：@jy531
 
 [B站的Matlab入门教程](https://www.bilibili.com/video/BV13D4y1Q7RS?spm_id_from=333.337.search-card.all.click&vd_source=4dd33cd955d898480089c09b650d69b4)
 
-[Matlab Simulink四旋翼教程](https://www.bilibili.com/video/BV1yW411576B?spm_id_from=333.337.search-card.all.click&vd_source=4dd33cd955d898480089c09b650d69b4)
+[Matlab Simulink四旋翼仿真教程](https://www.bilibili.com/video/BV1yW411576B?spm_id_from=333.337.search-card.all.click&vd_source=4dd33cd955d898480089c09b650d69b4)
