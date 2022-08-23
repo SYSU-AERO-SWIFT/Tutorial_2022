@@ -20,6 +20,8 @@ SolidWorks环境配置较为繁琐，请跟着教程配置。
 
 [环境配置](https://www.bilibili.com/video/BV1gZ4y1w76v/?spm_id_from=333.788.recommend_more_video.-1&vd_source=28eca9a455dd3210d721b4694d3c4aa1)
 
+**注** solidworks在安装过程中记得断开网络连接
+
 ## 需要掌握的内容
 * SolidWorks的基本操作
 * 各种零件的画法
