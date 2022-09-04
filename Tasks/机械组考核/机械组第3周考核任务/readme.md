@@ -2,7 +2,12 @@
 
 Author：@LinHuangnan
 
-Revise：
+Revise：@PiCaHor
+
+| 版本   | 说明              | 备注     |
+| ------ | ----------------- | -------- |
+| v0.0.0 | 建立文档          | 无       |
+| v0.0.1 | Revise&更正错别字 | @PiCaHor |
 
 ## 说明
 主控采用STM32F103C8T6,如果使用Arduino总分*70%

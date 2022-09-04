@@ -2,11 +2,12 @@
 
 Author：@LinHuangnan
 
-Revise：
+Revise：@PiCaHor
 
 | 版本 | 说明 |备注|
 | ---- | ---- | ---- |
 | v0.0.0 | 建立文档 |无|
+| v0.0.1 | Revise&更正错别字 |@PiCaHor|
 
 ## 说明
 - 第二周考核的难度不大，主要是帮助大家熟悉STM32的使用
