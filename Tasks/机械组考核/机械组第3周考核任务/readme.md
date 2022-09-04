@@ -27,7 +27,7 @@ Revise：
 
 **注** 需要上传演示视频和代码
 
-最终效果可以参考[这个视频](https://www.bilibili.com/video/BV16e4y1Y77M?share_source=copy_web&vd_source=34ed110d766ac5910b35ccc9afedda6e)，当然这个机械臂做的比较粗糙，如果大家会用Altium Designer或者立创EDA的画板子，建议自己画一个板子，有一说一连这么多杜邦线确实有点丑，而且稳定性也很丑
+最终效果可以参考[这个视频](https://www.bilibili.com/video/BV16e4y1Y77M?share_source=copy_web&vd_source=34ed110d766ac5910b35ccc9afedda6e)，当然这个机械臂做的比较粗糙，如果大家会用Altium Designer或者立创EDA的画板子，建议自己画一个板子，有一说一连这么多杜邦线确实有点丑，而且稳定性也很差
 
 ## 成绩评判
 | 打分项 | 分值 |
