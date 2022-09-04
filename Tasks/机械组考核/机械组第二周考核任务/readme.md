@@ -19,7 +19,7 @@ Revise：
 
 ## 任务安排
 ### 1、自学任务安排 
-- 自学STM32，参考[B站的SolidWorks教程](https://www.bilibili.com/video/BV1iw411Z7HZ?spm_id_from=333.337.search-card.all.click&vd_source=28eca9a455dd3210d721b4694d3c4aa1)，只需要学到`P21附加课7 转配体阵列&镜像与外观`即可
+- 自学STM32，参考考核仓库指南STM32部分
 
 ### 2、使用STM32完成一些常见外设的驱动，提交视频即可
 
