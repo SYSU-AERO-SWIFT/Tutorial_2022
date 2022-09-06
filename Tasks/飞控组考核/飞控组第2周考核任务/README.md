@@ -11,7 +11,8 @@ Author：@ma-h-m
 1. 熟悉 ROS 的基本操作，包括文件架构、通信机制 (`Publisher`, `Subscriber`, `Service`, `Client`, `msgs`)、包的创建、节点、服务器等。
 2. 熟练使用检索工具，善于查看官方文档获取资料。
 3. 熟练使用 `cmake`。
-4. 参考资料：
+4. 了解大疆模拟器与妙算的使用。
+5. 参考资料：
 
 [ROS官方文档](http://wiki.ros.org/cn)
 
