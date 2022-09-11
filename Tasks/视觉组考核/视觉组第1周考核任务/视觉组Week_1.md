@@ -10,8 +10,7 @@ Author: @Chasers0205
 
 首先安装搭载平台VMware Workstation并激活，接着下载.iso镜像文件，然后按照步骤创建并安装新的虚拟机，完成安装后如图所示。
 
-![image-20220910193403751](C:\Users\不蒸馒头争口气\AppData\Roaming\Typora\typora-user-images\image-20220910193403751.png)
-
+![image-20220910193403751](https://github.com/Chasers0205/Tutorial_2022/edit/main/Tasks/视觉组考核/视觉组第1周考核任务/image-20220910144536872.png)
 
 
 ### 2.学习 Git，熟悉 GitHub 的使用：使用 git 和 GitHub 完成考核任务
