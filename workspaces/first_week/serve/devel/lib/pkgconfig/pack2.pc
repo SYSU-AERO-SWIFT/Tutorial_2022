@@ -1,0 +1,8 @@
+prefix=/home/lockheed/Downloads/serve/devel
+
+Name: pack2
+Description: Description of pack2
+Version: 0.0.0
+Cflags: -I/home/lockheed/Downloads/serve/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

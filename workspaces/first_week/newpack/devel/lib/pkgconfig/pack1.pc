@@ -1,0 +1,8 @@
+prefix=/home/lockheed/Downloads/newpack/devel
+
+Name: pack1
+Description: Description of pack1
+Version: 0.0.0
+Cflags: -I/home/lockheed/Downloads/newpack/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_mags message_runtime

@@ -1,0 +1,8 @@
+*.[oa]
+*.o
+*.i
+*.out
+bin/
+build/
+CMakeFiles/
+
