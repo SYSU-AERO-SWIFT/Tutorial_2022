@@ -10,18 +10,18 @@ Author: @Chasers0205
 
 首先安装搭载平台VMware Workstation并激活，接着下载.iso镜像文件，然后按照步骤创建并安装新的虚拟机，完成安装后如图所示。
 
-![image-20220910193403751](https://github.com/Chasers0205/Tutorial_2022/edit/main/Tasks/视觉组考核/视觉组第1周考核任务/image-20220910144536872.png)
+![image-20220910193403751](https://github.com/Chasers0205/Tutorial_2022/edit/main/Tasks/视觉组考核/视觉组第1周考核任务/image-20220910193403751.png)
 
 
 ### 2.学习 Git，熟悉 GitHub 的使用：使用 git 和 GitHub 完成考核任务
 
 - `fork` 在考核仓库右上角点击Fork按钮，完成后就成功地将考核仓库拷贝了一份作为自己的部分。
 
-![image-20220910144536872](C:\Users\不蒸馒头争口气\AppData\Roaming\Typora\typora-user-images\image-20220910144536872.png)
+![image-20220910144536872](https://github.com/Chasers0205/Tutorial_2022/edit/main/Tasks/视觉组考核/视觉组第1周考核任务/image-20220910144536872.png)
 
 - `clone`  将Github中的远程仓库克隆到自己本地电脑中。
 
-![image-20220910145158590](C:\Users\不蒸馒头争口气\AppData\Roaming\Typora\typora-user-images\image-20220910145158590.png)
+![image-20220910145158590](https://github.com/Chasers0205/Tutorial_2022/edit/main/Tasks/视觉组考核/视觉组第1周考核任务/image-20220910145158590.png)
 
 #出现问题：clone过程中出现"Failed to connect to github.com port 443: Timed out".
 
@@ -52,7 +52,7 @@ Author: @Chasers0205
 
 - `commit` 将自己在本地创建或者修改的代码或文件提交到本地仓库。
 
-![image-20220910202406731](C:\Users\不蒸馒头争口气\AppData\Roaming\Typora\typora-user-images\image-20220910202406731.png)
+![image-20220910202406731](https://github.com/Chasers0205/Tutorial_2022/edit/main/Tasks/视觉组考核/视觉组第1周考核任务/image-20220910202406731.png)
 
 - `pull`  将本地仓库的修改提交到远程仓库。
 - `pull request` 简称`pr`,在 GitHub 上发送 Pull Request 后，发送过去的 Pull Request 是否被采纳，要由接收方仓库的管理者进行判断。接受pr的过程称为`merge`，进而实现自己的Tutorial_2022仓库和SYSU-AERO-SWIFT的Tutorial_2022仓库内容的同步。
@@ -109,7 +109,7 @@ g++ display_image.cpp -o display_image `pkg-config --cflags --libs opencv`
 ./display_image /home/chasers/Desktop/mytest/test.jpeg
 ```
 
-![image-20220910195827562](C:\Users\不蒸馒头争口气\AppData\Roaming\Typora\typora-user-images\image-20220910195827562.png)
+![image-20220910195827562](https://github.com/Chasers0205/Tutorial_2022/edit/main/Tasks/视觉组考核/视觉组第1周考核任务/image-20220910195827562.png)
 
 
 
@@ -158,7 +158,7 @@ g++ hello_world.cpp -o hello_world
 ./hello_world
 ```
 
-![image-20220910193216245](C:\Users\不蒸馒头争口气\AppData\Roaming\Typora\typora-user-images\image-20220910193216245.png)
+![image-20220910193216245](https://github.com/Chasers0205/Tutorial_2022/edit/main/Tasks/视觉组考核/视觉组第1周考核任务/image-20220910193216245.png)
 
 
 
