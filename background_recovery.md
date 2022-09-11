@@ -67,7 +67,7 @@
 ![Result 1](demo/res0.jpg)
 
 `video1.mp4` 结果如下：
-![Result 2](demo/res1.JPG)
+![Result 2](demo/res1.jpg)
 
 `video2.mp4` 结果如下：
 ![Result 3](demo/res2.png)
