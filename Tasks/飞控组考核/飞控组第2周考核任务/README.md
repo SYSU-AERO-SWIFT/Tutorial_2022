@@ -9,10 +9,11 @@ Author：@ma-h-m
 **必学内容：**
 
 1. 熟悉 ROS 的基本操作，包括文件架构、通信机制 (`Publisher`, `Subscriber`, `Service`, `Client`, `msgs`)、包的创建、节点、服务器等。
-2. 熟练使用检索工具，善于查看官方文档获取资料。
-3. 熟练使用 `cmake`。
+2. 熟悉`roslaunch`的基本使用，进一步了解如何将机器人模型在`.launch`文件中加载到参数服务器上。
+3. 熟悉ROS TF包、了解如何在RVIZ中模拟机器人模型的运动。参考资料：[ROS TF包 官方文档]([tf/Tutorials - ROS Wiki](http://wiki.ros.org/tf/Tutorials))，建议阅读一遍官方文档中的`Learning TF`，以把握基本概念。
 4. 了解大疆模拟器与妙算的使用。
-5. 参考资料：
+5. （*选学）了解`urdf`文件、`gazebo`仿真、`xacro`文件。
+6. 参考资料：
 
 [ROS官方文档](http://wiki.ros.org/cn)
 
@@ -23,10 +24,6 @@ Author：@ma-h-m
 [DJI OSDK官方文档](https://developer.dji.com/cn/onboard-sdk/).
 
 [【大疆无人机OnboardSDK（一）Assistant2仿真系统搭建】](https://blog.csdn.net/KID_yuan/article/details/102518205)
-
-**选修内容：**
-
-1. 了解 ROS 常用的可视化调试工具，包括二维的 `rosplot`，三维的 `rviz` 等。
 
 **特殊说明：**
 
