@@ -25,7 +25,7 @@
 
 1. 完成必学内容，用markdown记录关键的步骤。可以在这里学习[markdown的基础操作。](https://github.com/SYSU-AERO-SWIFT/Tutorial_2022/blob/main/Doc/%E8%A1%A5%E5%85%85%E7%9F%A5%E8%AF%86%E4%B8%89.md)
 
-2. 在命令行使用 `vim` 编辑一个 C++ 程序，然后用 `g++` 编译这个 C++ 程序, 输出 `Hello World`。请不要使用任何类型的 IDE。
+2. 在命令行使用 `vim` 编辑一个 C++ 程序，然后用 `g++` 编译这个 C++ 程序, 输出 `Hello World`。请不要使用任何类型的 IDE，请撰写简要的报告描述该过程，只需要表明过程即可便于我们验证。
 
 3. 根据 Wiki 教程将整个工程提交到 GitHub 上。**在此工程中，请勿提交不重要的中间文件。**（如 `.o` 文件和编译的可执行文件。提示：使用 `.gitignore`）
 
@@ -45,7 +45,6 @@
 本周负责人：谢泽熙
 
 联系邮箱：xiezx23@mail2.sysu.edu.cn
-
 
 
 
