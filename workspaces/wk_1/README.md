@@ -11,6 +11,7 @@
 >   - .gitignore
 >   - helloworld.cpp
 > - openCV_test
+>   - .gitignore
 >   - display_image.cpp
 
 
