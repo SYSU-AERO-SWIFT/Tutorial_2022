@@ -12,6 +12,7 @@ Revise：
 ## 软件安装
 
 ### DJI Assistant 2
+DJI Assistant 2是一款无人机调参软件可以快速的对大疆的无人机产品进行参数的调节，也可帮助用户进行产品固件的更新。
 
 [下载地址](https://www.dji.com/cn/downloads/softwares/assistant-dji-2)
 
