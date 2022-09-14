@@ -10,6 +10,6 @@
 *.o
 *.out
 
-# editor
+# Editor
 .vscode
 test.cpp
