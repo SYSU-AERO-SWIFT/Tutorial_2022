@@ -78,7 +78,7 @@ sdk.launch需要APPID和App Key两个信息。这就需要先在developer上新�
 
 ### 4、硬件连接
 - cp210x连接妙算与N3
-<div align=center><img width="500"  src="./image/6.jpg"/></div>
+<div align=center><img width="500"  src="./image/8.jpg"/></div>
 
 - 查看串口，修改对应的sdk.launch文件
 
@@ -99,7 +99,7 @@ dmesg
 
 ### 5、运行示例程序
 - 选择N3多旋翼飞行控制系统
-<div align=center><img width="300"  src="./image/6.jpg"/></div>
+<div align=center><img width="300"  src="./image/3.jpg"/></div>
 
 - 使能SDK API
 <div align=center><img width="600"  src="./image/5.jpg"/></div>
