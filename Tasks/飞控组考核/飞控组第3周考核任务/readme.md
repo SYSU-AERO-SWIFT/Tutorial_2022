@@ -154,7 +154,7 @@ ssh dji@...    (其中...为上一步的ip地址)
 - 新建一个终端：ctrl+a 再按c
 - 关闭一个终端：ctrl+a 再按x
 
-#### 熟悉DJI OSDK ROS
+# 熟悉DJI OSDK ROS
 
 ##### 运行的依赖关系
 
