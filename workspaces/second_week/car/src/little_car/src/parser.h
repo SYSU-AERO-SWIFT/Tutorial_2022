@@ -1,14 +1,12 @@
 #ifndef __PARSER_H
 #define __PARSER_H
-
-#include <ros/ros.h>
 #include "parser.h"
+#include <urdf/model.h>
 #include <string>
 #include <sensor_msgs/JointState.h>
 #include <tf/transform_broadcaster.h>
 #include <geometry_msgs/Point.h>
-#include <urdf/model.h>
-
+#include <ros/ros.h>
 #include <random>
 typedef struct
 {
@@ -16,7 +14,7 @@ typedef struct
 	float y = 0.0;
 	float z = 0.0;
 }SVector3;
-class little_car
+class l_car
 {
 	private:
 		SVector3 _velocity;	 //小车速度
@@ -37,7 +35,7 @@ class little_car
 		ros::Publisher joint_pub;
 		ros::Publisher pos_pub;	//小车位置信息发布者
 		void set_noise_level(int level);//设置噪声等级
-		little_car();			//构造函数
+		
 		SVector3 get_velocity();	//获取小车速度信息
 		SVector3 get_position();	//获取小车位置信息
 		void set_velocity(SVector3 velocity);//设置小车的速度 

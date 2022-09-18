@@ -1,0 +1,8 @@
+<launch>
+	<arg name="model"/>
+	<arg name="gui" default="False"/>
+	<param name="little car" textfile="$(find little_car)/urdf/little_car.urdf"/>
+	<param name="use_gui" value="$(arg gui)"/>
+        <node pkg="little_car" type="little_car_node" name="little_car_node" output="screen" />
+     <node pkg="controller" type="controller_node" name="controller_node"/> 
+</launch>
