@@ -11,7 +11,7 @@ g++ demo.cpp -o demo `pkg-config --cflags --libs opencv`
 ./demo ../../../resource/video0.mp4
 ```
 
-![image-微信图片_20220925225018](workspaces/Week 2/微信图片_20220925225018.png)
+![image-微信图片_20220925225018](https://github.com/Chasers0205/Tutorial_2022/blob/main/workspaces/Week 2/微信图片_20220925225018.png)
 
 ## 任务二：成功还原 video1.mp4 背景图
 
@@ -20,11 +20,16 @@ g++ demo.cpp -o demo `pkg-config --cflags --libs opencv`
 ./demo ../../../resource.video1.mp4
 ```
 
-![image-20220925220643102](workspaces/Week 2/微信图片_20220925225018.png)
+![image-微信图片_20220925225146](https://github.com/Chasers0205/Tutorial_2022/blob/main/workspaces/Week 2/微信图片_20220925225146.png)
 
 ## 任务三：成功还原 video2.mp4 背景图
 
-![image-20220925230654183](./image-20220925230654183.png)
+```
+g++ demo2.cpp -o demo2 `pkg-config --cflags --libs opencv`
+./demo2 ../../../resource.video2.mp4
+```
+
+![image-微信图片_20220925230706](https://github.com/Chasers0205/Tutorial_2022/blob/main/workspaces/Week 2/微信图片_20220925230706.png)
 
 ## 任务四：输出程序运行计时
 
