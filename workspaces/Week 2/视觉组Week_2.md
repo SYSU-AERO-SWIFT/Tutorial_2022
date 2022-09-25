@@ -24,6 +24,8 @@ g++ demo.cpp -o demo `pkg-config --cflags --libs opencv`
 
 ## 任务三：成功还原 video2.mp4 背景图
 
+![image-20220925230654183](C:\Users\不蒸馒头争口气\AppData\Roaming\Typora\typora-user-images\image-20220925230654183.png)
+
 ## 任务四：输出程序运行计时
 
 略。
