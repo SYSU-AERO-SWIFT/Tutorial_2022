@@ -130,7 +130,7 @@ mkdir mycode
 cd mycode
 ```
 
-3.使用源代码进入vim编辑程序，输入如下代码（详见week_1_code_1.cpp)，完成后保存并退出。
+3.使用源代码进入vim编辑程序，输入如下代码（详见hello_world.cpp)，完成后保存并退出。
 
 ```
 vim hello_world.cpp
