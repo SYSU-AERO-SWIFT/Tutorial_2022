@@ -1,0 +1,1 @@
+﻿C:\Users\17387\Desktop\BG\VS project\BG_PROJECT\BG_PROJECT.vcxproj(74,5): error MSB4019: 找不到导入的项目“C:\Users\17387\Desktop\BG\OpenCV_setting.props”。请确认 Import 声明“..\..\OpenCV_setting.props”中的表达式正确，且文件位于磁盘上。
