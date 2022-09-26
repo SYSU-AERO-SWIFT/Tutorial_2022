@@ -49,9 +49,8 @@
 1. 熟悉 ROS 的基本操作，包括文件架构、通信机制 (`Publisher`, `Subscriber`, `Service`, `Client`, `msgs`)、包的创建、节点、服务器等。
 2. 熟悉`roslaunch`的基本使用，进一步了解如何将机器人模型在`.launch`文件中加载到参数服务器上。
 3. 熟悉ROS TF包、了解如何在RVIZ中模拟机器人模型的运动。参考资料：[ROS TF包 官方文档]([tf/Tutorials - ROS Wiki](http://wiki.ros.org/tf/Tutorials))，建议阅读一遍官方文档中的`Learning TF`，以把握基本概念。
-4. 了解大疆模拟器与妙算的使用。
-5. （*选学）了解`urdf`文件、`gazebo`仿真、`xacro`文件。
-6. 参考资料：
+4. （*选学）了解`urdf`文件、`gazebo`仿真、`xacro`文件。
+5. 参考资料：
 
 [ROS官方文档](http://wiki.ros.org/cn)
 
@@ -64,8 +63,6 @@
 3. 让小车走一个 S 形（注意，我们在小车的行走中将加上噪声，你可能需要使用到PID控制）
 4. 提交时请使用 `.gitignore` 忽略追踪中间文件（`build/`、`devel/`等）。
 
-**特殊说明：**
-  大疆OSDK的任务要求已经更改到了第三周，请大家到第三周的文档查看。
 
 **评分标准：**
 
