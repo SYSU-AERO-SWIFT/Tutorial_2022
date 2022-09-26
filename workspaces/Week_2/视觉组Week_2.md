@@ -11,7 +11,7 @@ g++ demo.cpp -o demo `pkg-config --cflags --libs opencv`
 ./demo ../../../resource/video0.mp4
 ```
 
-![image-微信图片_20220925225018](https://github.com/Chasers0205/Tutorial_2022/blob/main/workspaces/Week 2/微信图片_20220925225018.png)
+![image-video0](https://github.com/Chasers0205/Tutorial_2022/blob/main/workspaces/Week_2/video0.jpg)
 
 ## 任务二：成功还原 video1.mp4 背景图
 
@@ -20,15 +20,20 @@ g++ demo.cpp -o demo `pkg-config --cflags --libs opencv`
 ./demo ../../../resource.video1.mp4
 ```
 
-![image-微信图片_20220925225146](https://github.com/Chasers0205/Tutorial_2022/blob/main/workspaces/Week 2/微信图片_20220925225146.jpg)
+![image-video1](https://github.com/Chasers0205/Tutorial_2022/blob/main/workspaces/Week_2/video1.jpg)
 
 ## 任务三：成功还原 video2.mp4 背景图
 
-![image-微信图片_20220925230706](https://github.com/Chasers0205/Tutorial_2022/blob/main/workspaces/Week 2/微信图片_20220925230706.jpg)
+```
+g++ demo2.cpp -o demo2 `pkg-config --cflags --libs opencv`
+./demo2 ../../../resource.video2.mp4
+```
+
+![image-video2](https://github.com/Chasers0205/Tutorial_2022/blob/main/workspaces/Week_2/video2.jpg)
 
 ## 任务四：输出程序运行计时
 
-略。
+详见cmd。
 
 ## 任务五：使用 makefile 成功编译运行
 
