@@ -39,6 +39,8 @@ g++ demo2.cpp -o demo2 `pkg-config --cflags --libs opencv`
 
 （未完成）
 
+![makefile](D:\Chasers_Tutorial_2022\Tutorial_2022\workspaces\Week_2\makefile.jpg)
+
 ## 任务六：编写说明文档
 
 略。
