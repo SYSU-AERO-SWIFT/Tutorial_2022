@@ -1,0 +1,17 @@
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+
+!makefile
+!Makefile
+
+!*.md
+
+*.a
+*.o
+*.out
+
+# Editor
+.vscode
+

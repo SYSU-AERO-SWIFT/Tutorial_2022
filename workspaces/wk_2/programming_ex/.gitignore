@@ -1,0 +1,15 @@
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+!Makefile
+
+!*.md
+
+*.a
+*.o
+*.out
+
+# Editor
+.vscode
+test.cpp
