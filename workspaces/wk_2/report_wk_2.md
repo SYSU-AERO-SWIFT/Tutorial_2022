@@ -21,8 +21,8 @@
 - 实际代码中直接遍历像素确定前景矩形框。这样简单的前景划分只对 resize 缩小过后的图像进行遍历，具有很高的算法效率，但需要足够多的帧数以保证背景图每一处都有机会落在矩形框外。
 - 提高鲁棒性
   - 对已确定的前景矩形框进行边缘外扩
-  - 加入异常检测（前景面积过大），异常时不采用该帧
-  - 加入静止检测（前景面积过小），静止时采用上一个合法帧的前景矩形框
+  - 加入异常帧检测（前景面积过大），异常时不采用该帧
+  - 加入静止帧检测（前景面积过小），静止时采用上一个合法帧的前景矩形框
 
 ### 基于摩尔投票法
 
@@ -112,8 +112,16 @@
 │   │   └── recovery.cpp
 │   └── test
 │       └── recovery_test.cpp
-└── programming_ex
-    ├── addTwoNumbers.cpp
-    └── .gitignore
+├── programming_ex
+│   ├── addTwoNumbers.cpp
+│   └── .gitignore
+├── report_pic
+│   ├── change_points.jpg
+│   ├── video0_background.jpg
+│   ├── video1_background.jpg
+│   ├── video2_background.jpg
+│   └── video3_background.jpg
+└── report_wk_2.md
+
 ```
 
