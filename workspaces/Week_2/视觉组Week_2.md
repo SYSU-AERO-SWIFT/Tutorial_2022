@@ -11,7 +11,7 @@ g++ demo.cpp -o demo `pkg-config --cflags --libs opencv`
 ./demo ../../../resource/video0.mp4
 ```
 
-![video0](D:\Chasers_Tutorial_2022\Tutorial_2022\workspaces\Week_2\video0.jpg)
+![video0](https://github.com/Chasers0205/Tutorial_2022/blob/main/workspaces/Week_2/video0.jpg)
 
 ## 任务二：成功还原 video1.mp4 背景图
 
@@ -20,7 +20,7 @@ g++ demo.cpp -o demo `pkg-config --cflags --libs opencv`
 ./demo ../../../resource.video1.mp4
 ```
 
-![video1](D:\Chasers_Tutorial_2022\Tutorial_2022\workspaces\Week_2\video1.jpg)
+![video1](https://github.com/Chasers0205/Tutorial_2022/blob/main/workspaces/Week_2/video1.jpg)
 
 ## 任务三：成功还原 video2.mp4 背景图
 
@@ -29,7 +29,7 @@ g++ demo2.cpp -o demo2 `pkg-config --cflags --libs opencv`
 ./demo2 ../../../resource.video2.mp4
 ```
 
-![video2](D:\Chasers_Tutorial_2022\Tutorial_2022\workspaces\Week_2\video2.jpg)
+![video2](https://github.com/Chasers0205/Tutorial_2022/blob/main/workspaces/Week_2/video2.jpg)
 
 ## 任务四：输出程序运行计时
 
@@ -39,7 +39,7 @@ g++ demo2.cpp -o demo2 `pkg-config --cflags --libs opencv`
 
 （未完成）
 
-![makefile](D:\Chasers_Tutorial_2022\Tutorial_2022\workspaces\Week_2\makefile.jpg)
+![makefile](https://github.com/Chasers0205/Tutorial_2022/blob/main/workspaces/Week_2/makefile.jpg)
 
 ## 任务六：编写说明文档
 
