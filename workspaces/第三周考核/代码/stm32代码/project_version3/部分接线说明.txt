@@ -1,0 +1,9 @@
+TIM1_CH1---底座舵机
+TIM2_CH1---左侧舵机
+TIM3_CH1---右侧舵机
+TIM4_CH3---sg90舵机
+nrf:
+CE---B0
+CSN---B1
+IRQ---B10
+spi---SPI2
