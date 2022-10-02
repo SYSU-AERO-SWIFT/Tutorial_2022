@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="practice" type="client" name="request" output="screen" />
+	<node pkg="practice" type="server" name="response" output="screen"/>
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="practice" type="publisher" name="talker" output="screen" />
+	<node pkg="practice" type="subscriber" name="listener" output="screen"/>
+</launch>
