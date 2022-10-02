@@ -157,6 +157,9 @@ include_directories(
 add_executable(ctrlPub src/ctrlPub.cpp)
 target_link_libraries(ctrlPub ${catkin_LIBRARIES})
 
+# add_executable(pidCtrlPub src/pidCtrlPub.cpp)
+# target_link_libraries(pidCtrlPub ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############

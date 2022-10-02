@@ -1,4 +1,6 @@
 #include "parser.h"
+#include "pid.h"
+
 #include <urdf/model.h>
 #include <string>
 #include <sensor_msgs/JointState.h>
@@ -27,7 +29,9 @@ int main(int argc, char** argv) {
 	 */
 
     ros::Rate loop_rate(60);
-	car.set_noise_level(1);		   //设置噪声等级
+	car.set_noise_level(0);		   //设置噪声等级
+	// ros::MultiThreadedSpinner spinner(2);
+	// spinner.spin();
 
     while (ros::ok()) {
         car.update_(); //小车状态更新
