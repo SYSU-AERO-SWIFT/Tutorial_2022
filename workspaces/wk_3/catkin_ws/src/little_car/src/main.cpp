@@ -28,10 +28,12 @@ int main(int argc, char** argv) {
 	 *若有需要，也可以从小车处发布你所需要的信息
 	 */
 
-    ros::Rate loop_rate(60);
+    ros::Rate loop_rate(UPDT_FREQ);
 	car.set_noise_level(0);		   //设置噪声等级
 	// ros::MultiThreadedSpinner spinner(2);
 	// spinner.spin();
+
+	PID pid = PID(1./UPDT_FREQ, 0.008, 0.0, 0.0001, 0.00001, 0.001);
 
     while (ros::ok()) {
         car.update_(); //小车状态更新
