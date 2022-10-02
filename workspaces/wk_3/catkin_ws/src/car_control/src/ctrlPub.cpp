@@ -10,7 +10,7 @@ int main(int argc, char** argv) {
     ros::NodeHandle n;
 
     ros::Publisher pub = n.advertise<geometry_msgs::Point>("/velocity_cmd", 10);
-
+    
     ros::Rate loop_rate(FREQ);
     while (ros::ok()) {
         double t = ros::Time::now().toSec();

@@ -86,15 +86,12 @@ void little_car::set_yaw(float yaw)
 }
 void little_car::ctrlCallBack(const geometry_msgs::Point::ConstPtr &msg) {
 	SVector3 vel;
-	// vel.x = msg->x;
-	// vel.y = msg->y;
-	// vel.z = msg->z;
-	vel.x = 0;
-	vel.y = 0.008;
-	vel.z = 0;
+	vel.x = msg->x;
+	vel.y = msg->y;
+	vel.z = msg->z;
+	double yaw = -tan(msg->x / msg->y) / 2;
 
-	ROS_INFO("Control velocity [x:%0.6f y:%0.6f z:%0.6f]", vel.x, vel.y, vel.z);
+	ROS_INFO("Control velocity [x:%0.6f y:%0.6f z:%0.6f yaw:%0.6f]", vel.x, vel.y, vel.z, yaw);
 	set_velocity(vel);
-
-	set_yaw(-tan(msg->x / msg->y));
+	set_yaw(yaw);
 }

@@ -27,14 +27,10 @@ int main(int argc, char** argv) {
 	 */
 
     ros::Rate loop_rate(60);
-	SVector3 velocity={0,0.008,0};  //速度向量
-	car.set_noise_level(0);		   //设置噪声等级
+	car.set_noise_level(1);		   //设置噪声等级
 
     while (ros::ok()) {
         car.update_(); //小车状态更新
-
-		SVector3 pos = car.get_position();
-		ROS_INFO("Car position [x:%0.6f y:%0.6f z:%0.6f]", pos.x, pos.y, pos.z);
 
 		ros::spinOnce();
 		loop_rate.sleep();
