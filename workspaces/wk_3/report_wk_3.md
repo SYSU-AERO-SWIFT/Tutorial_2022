@@ -1,5 +1,9 @@
 # report_wk_3
 
+## cmake 学习
+
+创建 `cmake_test` ，具体略
+
 ## 功能包
 
 - 创建工作区文件夹 `catkin_ws/` 
@@ -82,7 +86,9 @@
 
 ## PCL 提取目标平面
 
+`pcl_test` 中编写运行官方平面分割例程 `planar_segmentation.cpp`，并编写 cmake 编译执行
 
+提取目标平面参数：0 0 1 -1，即目标平面为 $$ z-1=0 $$
 
 
 
@@ -136,7 +142,7 @@ while (ros::ok()) {
 }
 ```
 
-为了实现多线程，需要在 `main.cpp` 中创建 `subscriber` 并在回调函数中进行数据处理，由于回调函数只有一个参数且没有返回值，需要实现为 `little_car` 类的成员函数：
+需要在 `main.cpp` 中创建 `subscriber` 并在回调函数中进行数据处理，由于回调函数只有一个参数且没有返回值，需要实现为 `little_car` 类的成员函数：
 
 ```cpp
 void little_car::ctrlCallBack(const geometry_msgs::Point::ConstPtr &msg) {
@@ -171,7 +177,13 @@ void little_car::ctrlCallBack(const geometry_msgs::Point::ConstPtr &msg) {
 
 
 
+### 在1级噪音下控制运动
 
+使用外界库实现 PID 控制，见 `little_car/src/` 下的 `pid.cpp` 与 `pid.h` 
+
+- 只在 x, y 位置上产生噪音
+
+未成功
 
 
 
