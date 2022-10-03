@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="test_pkg" type="person_subscriber" name="listener" output="screen" />
+    <node pkg="test_pkg" type="person_publisher" name="speaker" output="screen" /> 
+</launch>
+
+

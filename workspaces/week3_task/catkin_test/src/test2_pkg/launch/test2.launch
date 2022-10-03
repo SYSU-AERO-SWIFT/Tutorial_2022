@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="test2_pkg" type="data_server" name="listener" output="screen" />
+    <node pkg="test2_pkg" type="data_client" name="speaker" output="screen" /> 
+</launch>
+
+
