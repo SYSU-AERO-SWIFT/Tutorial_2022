@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="myPackage" type="talker" name="t1" output="screen" />
+    <node pkg="myPackage" type="listener" name="l1" output="screen" />
+
+    <node pkg="myPackage" type="randServer" name="rSrv" output="screen" />
+    <node pkg="myPackage" type="randClient" name="rClt" output="screen" />
+
+</launch>

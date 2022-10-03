@@ -1,0 +1,5 @@
+string name
+
+float64 rand_num
+---
+uint8 result
